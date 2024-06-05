@@ -1,0 +1,50 @@
+body {
+    background-image: url(imagem/fundo-de-pontos-de-interrogacao-notas-de-papel-coloridas-com-pontos-de-interrogacao-imagem-do-conceito-vista-superior-do-close-up-tonificada_79075-13368.avif);
+    background-size: 100%;
+
+    
+}
+#nomeebotao {
+    text-align: center;
+    background-color: grey;
+    padding: 30px;
+    border-radius: 20px;
+    border-color: black;
+    margin: 500px;
+    margin-top: 8%;
+}
+#botao {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px;
+    text-align: center; 
+    font-size: 16px;
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    transition: background-color 0.3s, transform 0.3s; 
+    
+    
+}
+#nome {
+    padding: 10px;
+    margin: 15px;
+}
+#bemvindo {
+    text-align: center;
+    color: rgb(140, 140, 2);
+    font-family: 'Honk';
+    font-size: 80px;
+}
+#final {
+    text-align: center;
+    color: white;
+    background-color: rgb(172, 95, 95);
+    padding: 30px;
+    margin-top: -15%;
+    border-radius: 10px;
+    margin: -50px;
+
+
+}
