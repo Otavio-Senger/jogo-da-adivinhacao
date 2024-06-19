@@ -1,0 +1,31 @@
+body {
+    background-image: url(../imagem/fundo-de-numerologia-gradiente_23-2150066807.avif);
+    background-size: 160%;
+}
+#titulo {
+    text-align: center;
+    font-family: 'Honk';
+    font-size: 80px;
+}
+#quantidadeelista {
+    text-align: center;
+    background-color: rgb(105, 153, 226, 0.3);
+    border-radius: 10px;
+    margin: 500px;
+    margin-top: 10%;
+    padding: 30px;
+    font-family: 'Acme';
+    font-size: 20px;
+    color: white;
+}
+#botao {
+    background-color: rgb(201, 201, 11);
+    border: 0cap;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 30px;
+    margin: 15px;
+    color: white;
+    font-family: 'Seymour One';
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da adivinhação</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+</head>
+<body>
+        
+   <h1 id="saudacao">Olá, <span id="mostrarnome"></span>!</h1>
+   <div id="entrada">
+        <p id="instrucao">Tente acertar um númerado gerado aleatoriamente de 1 a 10!</p>
+        <p id="cores">(Azul = longe, Amarelo = próximo, Vermelho = muito próximo)</p>
+        <input type="number" name="number" placeholder="Digite um numero:" required minlength="1" maxlength="10" id="digitar" autofocus>
+        <div id="botao">
+            <button id="adivinhar">Adivinhar!</button>
+        </div>
+        
+        <div id="mss">
+        <p id="mensagem"></p>
+    </div>
+    
+</div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
