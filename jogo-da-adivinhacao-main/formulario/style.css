@@ -1,0 +1,58 @@
+body {
+    background-image: url(../imagem/fundo-de-numerologia-gradiente_23-2150066807.avif);
+    background-size: 150%;
+
+    
+}
+#nomeebotao {
+    text-align: center;
+    background-color: rgb(105, 153, 226, 0.3);
+    padding: 30px;
+    border-radius: 20px;
+    border-color: black;
+    margin: 500px;
+    margin-top: 8%;
+    
+}
+#botao {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 30px;
+    text-align: center; 
+    font-size: 16px;
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    transition: background-color 0.3s, transform 0.3s; 
+    
+}
+#nome {
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    opacity: 500%;
+}
+#bemvindo {
+    text-align: center;
+    color: rgb(140, 140, 2);
+    font-family: 'Honk';
+    font-size: 80px;
+}
+#final {
+    text-align: center;
+    color: white;
+    background-color: rgb(172, 95, 95);
+    padding: 30px;
+    margin-top: -15%;
+    border-radius: 10px;
+    margin: 0;
+
+
+}
+#email {
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    opacity: 500%;
+}
